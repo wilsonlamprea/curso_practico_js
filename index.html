@@ -8,12 +8,34 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header>
-      <h1> Figuras Geométricas</h1>
-      <p>este es el Primer curso practico de JS</p>
-  </header>
+<header>
+    <figure class="logo">
+        <img src="./Imagenes/Logo pequeño.png" alt="Logo Wilson">
+        <strong>Wilson - Platzi</strong>
+    </figure>  
 
-  <section>
+    <nav class="navbar">
+        <ul class="menu">
+            <li>
+                <a href="./index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="./index.html">Taller 1</a>
+            </li>
+            <li>
+                <a href="./Taller1.html">Taller 2</a>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+    <section>
+    <div class="titulo">
+        <h1> Figuras Geométricas</h1>
+        <p>este es el Primer curso practico de JS</p>
+    </div>
+    
     <h2>calcula el área de un cuadrado</h2>
     <form class="form__cuadrado">
         <label for="InputCuadrado">
@@ -29,14 +51,14 @@
         </button>
     </form>
 
-      <h2>Triangulo Isósceles - Calculo de la Altura</h2>
-      <form class="form__triangulo">
-          <label for="lado1">
-              Escribe la longitud del Lado 1
-          </label>
-          <input id="lado1" type="number">
+    <h2>Triangulo Isósceles - Calculo de la Altura</h2>
+    <form class="form__triangulo">
+        <label for="lado1">
+            Escribe la longitud del Lado 1
+        </label>
+        <input id="lado1" type="number">
 
-          <label for="lado2">
+        <label for="lado2">
             Escribe la longitud del Lado 2
         </label>
         <input id="lado2" type="number">
@@ -50,8 +72,8 @@
             Calcular Altura
         </button>
 
-      </form>
-  </section>
+    </form>
+</section>
 
     <script src="./figuras.js"></script>
 
