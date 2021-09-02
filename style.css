@@ -23,16 +23,19 @@ header{
 .logo{
     display: flex;
     align-items: center;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .logo strong {
     margin-left: 5px;
-    font-size: 2rem;
+    font-size: 100%;
 }
 .menu{
     display: flex;
     list-style: none;
-    font-size: 2rem;
+    font-size: 80%;
 }
 .menu li{
     margin: 0 5px;
