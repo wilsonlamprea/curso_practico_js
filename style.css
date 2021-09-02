@@ -32,6 +32,7 @@ header{
 .menu{
     display: flex;
     list-style: none;
+    font-size: 2rem;
 }
 .menu li{
     margin: 0 5px;
